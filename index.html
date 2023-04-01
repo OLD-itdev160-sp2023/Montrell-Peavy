@@ -4,48 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1</title>
+    <title>The Best VS Code Extensions for Front End Developers</title>
+    <link rel="stylesheet" href = "https://fonts.googlesapis.com/css?family=Open+Sans">"
+    <link rel="stylesheet" href = "css/master.css">
 </head>
-<link rel="stylesheet" text="text/css" href="master.css">
-<link rel="stylesheet" href="https://fonts.googlesapis.com/css?family=Open+Sans">
 <body>
     <header>
-        <h1>Rate These Cars!</h1>
-        <h2 id="greeting"></h2>
+        <h1>The Best VS Code Extensions for Front End Developers</h1>
+        <div id="credits">
+            <div id ="author">
+                by Montrell Peavy
+            </div>
+            <div id="date"></div>
+        </div>
+        <img id="header-image" src="images/vscode extensions.png" alt="VS Code">
     </header>
     <main>
-        <figure>
-            <img src="images/car1.jpg" alt="2023 Chevrolet convertible">
-            <figcaption>
-                Option 1 - <span>2023 Chevrolet convertible</span>
-            </figcaption>
-        </figure>
-        <p id="car-description">
-            This 2023 Chevrolet Corvette is ranked #1 for the most horsepower for a convertible.
-        </p>
-       <div>
-        <button>One Star</button><button>Two Stars</button>
-        <button>Three Stars</button><button>Four Stars</button>
-        <button>Five Stars</button>
-       </div>
-       <div>
-        <figure>
-            <img src="images/car2.jpg" alt="Lamborghini">
-            <figcaption>
-                Option 2 - <span>Automobilli Lamborghini</span>
-            </figcaption>
-        </figure>
-        <p id="car-description">
-            This Automobilli Lamborghini is another prouct of the most famous car brand out there.
-        </p>
-       </div>
-       <div>
-        <button>One Star</button><button>Two Stars</button>
-        <button>Three Stars</button><button>Four Stars</button>
-        <button>Five Stars</button>
-       </div>
+        <div class="package-container">
+            <header>
+                <h2 id="p1-name"></h2>
+            </header>
+            <section>
+                <p id="p1-description"></p>
+            </section>
+            <footer>
+                Author <span id="p1-author"></span>
+                Downloads <span id="p1-downloads"></span>
+                Stars: <span id="p1-stars"></span>
+            </footer>
+        </div>
+        <div class="package-container">
+            <header>
+                <h2 id="p2-name"></h2>
+            </header>
+            <section>
+                <p id="p2-description"></p>
+            </section>
+            <footer>
+                Author <span id="p2-author"></span>
+                Downloads <span id="p2-downloads"></span>
+                Stars: <span id="p2-stars"></span>
+            </footer>
+        </div>
+        <div class="package-container">
+            <header>
+                <h2 id="p3-name"></h2>
+            </header>
+            <section>
+                <p id="p3-description"></p>
+            </section>
+            <footer>
+                Author <span id="p3-author"></span>
+                Downloads <span id="p3-downloads"></span>
+                Stars: <span id="p3-stars"></span>
+            </footer>
+        </div>
     </main>
-    <footer></footer>
     <script src="js/scripts.js"></script>
 </body>
 </html>
